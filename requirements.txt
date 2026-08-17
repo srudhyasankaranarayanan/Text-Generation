@@ -1,0 +1,6 @@
+streamlit
+transformers
+torch
+torchvision
+
+https://gen-ai-text-generation-nx5bkxy8y6swr9hxglrroo.streamlit.app/
