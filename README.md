@@ -1,12 +1,12 @@
 # 🤖 AI Text Generator
 
-A simple web-based **AI Text Generator** built using **Streamlit** and **Hugging Face Transformers**. The application allows users to enter a sentence or short prompt and generates a continuation using the pretrained **Qwen/Qwen2.5-0.5B-Instruct** language model.
+A simple web-based **AI Text Generator** built using **Streamlit** and **Hugging Face Transformers**. The application allows users to enter a sentence or short prompt and generates a continuation using the pretrained **Qwen/Qwen3.8-2.4T-A95B** language model.
 
 ## About the Project
 
 This project demonstrates how a pretrained **Transformer language model** can be integrated with a simple interactive Streamlit web interface.
 
-Instead of training a language model from scratch, the application uses the **Qwen/Qwen2.5-0.5B-Instruct** model from Hugging Face. Streamlit provides the user interface for entering prompts and displaying the generated text.
+Instead of training a language model from scratch, the application uses the **Qwen/Qwen3.8-2.4T-A95B** model from Hugging Face. Streamlit provides the user interface for entering prompts and displaying the generated text.
 
 ## Features
 
@@ -26,7 +26,7 @@ Instead of training a language model from scratch, the application uses the **Qw
 * Streamlit
 * Hugging Face Transformers
 * PyTorch
-* Qwen/Qwen2.5-0.5B-Instruct
+* Qwen/Qwen3.8-2.4T-A95B
 
 ## How It Works
 
@@ -37,7 +37,7 @@ Instead of training a language model from scratch, the application uses the **Qw
 The application uses:
 
 ```text
-Qwen/Qwen2.5-0.5B-Instruct
+Qwen/Qwen3.8-2.4T-A95B
 ```
 
 The model is loaded using the Hugging Face Transformers pipeline:
@@ -47,7 +47,7 @@ from transformers import pipeline
 
 generator = pipeline(
     "text-generation",
-    model="Qwen/Qwen2.5-0.5B-Instruct"
+    model="Qwen/Qwen3.8-2.4T-A95B"
 )
 ```
 
