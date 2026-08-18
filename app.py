@@ -15,7 +15,7 @@ st.write("Enter a prompt and let the AI generate text.")
 def load_model():
     generator = pipeline(
         "text-generation",
-        model="LiquidAI/LFM2.5-2.6B"
+        model="Qwen/Qwen3.8-2.4T-A95B"
     )
     return generator
 
