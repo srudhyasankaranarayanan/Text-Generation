@@ -30,7 +30,7 @@ Instead of training a language model from scratch, the application uses the **Qw
 
 ## How It Works
 
-<img width="1086" height="1448" alt="AI Text Generator Workflow" src="https://github.com/user-attachments/assets/1afcb1dc-3561-402d-9cc9-e48fa4cb7e58" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/9b3b21ab-cefd-440e-8289-d767c85d0feb" />
 
 ## Model
 
