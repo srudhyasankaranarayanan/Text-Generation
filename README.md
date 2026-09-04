@@ -102,6 +102,11 @@ Artificial Intelligence is
 
 Click **✨ Generate Text** to generate the continuation.
 
+## Screenshots
+
+<img width="1326" height="753" alt="image" src="https://github.com/user-attachments/assets/46b0c4de-218d-40d5-99aa-874a5b1fa575" />
+
+
 ## What This Project Demonstrates
 
 This project provides a practical introduction to:
